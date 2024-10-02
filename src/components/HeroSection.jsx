@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className={styles.inner2}>
+      <div className={styles.imageWrapper}>
         <Image
           width={500}
           height={400}

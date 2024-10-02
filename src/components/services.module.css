@@ -40,3 +40,20 @@
   font-size: 18px;
   font-weight: bold;
 }
+@media (max-width: 1024px) {
+  .container {
+    padding: 24px 50px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .boxWrapper {
+    gap: 20px;
+  }
+  .boxC {
+    flex-direction: column;
+    align-items: unset;
+    gap: 20px;
+  }
+}

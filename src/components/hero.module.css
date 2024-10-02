@@ -11,6 +11,13 @@
   font-size: 20px;
   padding: 24px 0;
 }
+.logo {
+  /* width: 500px; */
+
+  /* max-width: 100px; */
+  /* height: auto; */
+  /* display: block; */
+}
 .actions {
   display: flex;
   gap: 15px;
@@ -23,4 +30,26 @@
 .demo {
   font-size: 16px;
   color: #2f2f2f;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+  .container {
+    padding: 24px 50px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 24px 50px;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
