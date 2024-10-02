@@ -1,0 +1,26 @@
+.container {
+  padding: 85px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 54px;
+}
+.subtitle {
+  font-size: 20px;
+  padding: 24px 0;
+}
+.actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.demoC {
+  display: flex;
+  gap: 15px;
+}
+.demo {
+  font-size: 16px;
+  color: #2f2f2f;
+}

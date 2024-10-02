@@ -1,0 +1,49 @@
+.container {
+  padding: 50px 64px;
+  background-color: #7261ff;
+}
+.innerC {
+  padding: 50px 116px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+}
+.boxWrapper {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.boxT {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.subtitle {
+  color: #52525b;
+  font-size: 14px;
+}
+.btn {
+  background-color: white;
+  border-color: var(--purple);
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 20px;
+  color: var(--purple);
+  text-align: center;
+}
+.btn:hover{
+    background-color: var(--purple);
+    color: white;
+}

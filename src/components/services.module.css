@@ -1,0 +1,42 @@
+.container {
+  padding: 80px 351px;
+  font-weight: bold;
+}
+.subtitle {
+  text-align: center;
+  color: #7261ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  color: #000000;
+}
+.boxWrapper {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.boxC {
+  /* background-color: ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxI {
+  background-color: #9e9e9e1f;
+  padding: 32px 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.boxT {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
